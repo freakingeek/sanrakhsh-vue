@@ -8,4 +8,4 @@ export default {
 };
 </script>
 
-<style src="" />
+<style src="@/assets/styles/index.scss" lang="scss" />
