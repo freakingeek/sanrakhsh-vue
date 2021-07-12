@@ -1,10 +1,6 @@
 <template>
   <div v-if="changeOrder" :class="['home-page-second', className]">
-    <svg
-      class="home-page-second__svg"
-      viewbox="0 0 1835.353 1588.813"
-      xmlns="http://www.w3.org/2000/svg"
-    >
+    <svg class="home-page-second__svg" viewbox="0 0 1835.353 1588.813" xmlns="http://www.w3.org/2000/svg">
       <path
         fill-rule="evenodd"
         clip-rule="evenodd"
@@ -31,11 +27,7 @@
   </div>
 
   <div v-else :class="['home-page-second-reverse', className]">
-    <svg
-      viewbox="0 0 1835.353 1588.813"
-      xmlns="http://www.w3.org/2000/svg"
-      class="home-page-second-reverse__svg"
-    >
+    <svg viewbox="0 0 1835.353 1588.813" xmlns="http://www.w3.org/2000/svg" class="home-page-second-reverse__svg">
       <path
         fill-rule="evenodd"
         clip-rule="evenodd"
@@ -69,8 +61,8 @@
 </template>
 
 <script>
-import gsap from 'gsap'
-import ScrollTrigger from "gsap/ScrollTrigger"
+import gsap from 'gsap';
+import ScrollTrigger from 'gsap/ScrollTrigger';
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -81,73 +73,70 @@ export default {
     title: String,
     image: String,
     className: String,
-    changeOrder: Boolean,
+    changeOrder: Boolean
   },
 
   mounted() {
-    if (process.browser) {
-      gsap.from(`.${this.className} .home-page-second__svg`, {
-        scrollTrigger: {
-          start: 'top center',
-          trigger: `.${this.className}`,
-          toggleActions: 'play none reverse none',
-        },
-        scale: 0.1,
-        opacity: 0,
-        rotate: -30,
-        duration: 1.5,
-      })
+    gsap.from(`.${this.className} .home-page-second__svg`, {
+      scrollTrigger: {
+        start: 'top center',
+        trigger: `.${this.className}`,
+        toggleActions: 'play none reverse none'
+      },
+      scale: 0.1,
+      opacity: 0,
+      rotate: -30,
+      duration: 1.5
+    });
 
-      gsap.from(`.${this.className} .cyrcle`, {
-        scrollTrigger: {
-          start: 'top center',
-          trigger: `.${this.className}`,
-          toggleActions: 'play none reverse none',
-        },
-        scale: 0,
-        opacity: 0,
-        duration: 1,
-      })
+    gsap.from(`.${this.className} .cyrcle`, {
+      scrollTrigger: {
+        start: 'top center',
+        trigger: `.${this.className}`,
+        toggleActions: 'play none reverse none'
+      },
+      scale: 0,
+      opacity: 0,
+      duration: 1
+    });
 
-      gsap.from(`.${this.className} .cyrcle__title`, {
-        delay: 0.2,
-        opacity: 0,
-        duration: 0.5,
-      })
+    gsap.from(`.${this.className} .cyrcle__title`, {
+      delay: 0.2,
+      opacity: 0,
+      duration: 0.5
+    });
 
-      // Reverse
+    // Reverse
+    gsap.from(`.${this.className} .home-page-second-reverse__svg`, {
+      scrollTrigger: {
+        start: 'top bottom',
+        trigger: `.${this.className} .home-page-second-reverse__svg`,
+        toggleActions: 'play none reverse none'
+      },
+      scale: 0.1,
+      opacity: 0,
+      rotate: 100,
+      duration: 1
+    });
 
-      gsap.from(`.${this.className} .home-page-second-reverse__svg`, {
-        scrollTrigger: {
-          start: 'top bottom',
-          trigger: `.${this.className} .home-page-second-reverse__svg`,
-          toggleActions: 'play none reverse none',
-        },
-        scale: 0.1,
-        opacity: 0,
-        rotate: 100,
-        duration: 1,
-      })
+    gsap.from(`.${this.className} .cyrcle-reverse`, {
+      scrollTrigger: {
+        trigger: `.${this.className} .home-page-second-reverse__svg`,
+        toggleActions: 'play none reverse none'
+      },
+      scale: 0,
+      opacity: 0,
+      duration: 1
+    });
 
-      gsap.from(`.${this.className} .cyrcle-reverse`, {
-        scrollTrigger: {
-          trigger: `.${this.className} .home-page-second-reverse__svg`,
-          toggleActions: 'play none reverse none',
-        },
-        scale: 0,
-        opacity: 0,
-        duration: 1,
-      })
-
-      gsap.from(`.${this.className} .cyrcle-reverse__title`, {
-        scrollTrigger: `.${this.className} .home-page-second-reverse__svg`,
-        delay: 0.2,
-        opacity: 0,
-        duration: 0.5,
-      })
-    }
-  },
-}
+    gsap.from(`.${this.className} .cyrcle-reverse__title`, {
+      scrollTrigger: `.${this.className} .home-page-second-reverse__svg`,
+      delay: 0.2,
+      opacity: 0,
+      duration: 0.5
+    });
+  }
+};
 </script>
 
 <style src="./home-page-second.scss" lang="scss" scoped />
