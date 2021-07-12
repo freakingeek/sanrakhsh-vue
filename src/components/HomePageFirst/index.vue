@@ -35,7 +35,7 @@
 
 <script>
 import gsap from 'gsap';
-import ScrollTrigger from "gsap/ScrollTrigger"
+import ScrollTrigger from 'gsap/ScrollTrigger';
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -51,58 +51,56 @@ export default {
   },
 
   mounted() {
-    if (process.browser) {
-      gsap.to(`.${this.className}`, {
-        scrollTrigger: {
-          trigger: `.${this.className}`,
-          start: 'center center',
-          scrub: 2
-        },
-        scale: 0,
-        opacity: 0,
-        duration: 3
-      });
+    gsap.to(`.${this.className}`, {
+      scrollTrigger: {
+        trigger: `.${this.className}`,
+        start: 'center center',
+        scrub: 2
+      },
+      scale: 0,
+      opacity: 0,
+      duration: 3
+    });
 
-      gsap.from(`.${this.className}__svg`, {
-        scrollTrigger: {
-          trigger: `.${this.className}__svg`
-        },
-        y: 30,
-        scale: 0.5,
-        delay: 0.5,
-        opacity: 0,
-        rotate: 60,
-        duration: 0.8
-      });
+    gsap.from(`.${this.className}__svg`, {
+      scrollTrigger: {
+        trigger: `.${this.className}__svg`
+      },
+      y: 30,
+      scale: 0.5,
+      delay: 0.5,
+      opacity: 0,
+      rotate: 60,
+      duration: 0.8
+    });
 
-      gsap.from(`.${this.className}__svg2`, {
-        scrollTrigger: {
-          trigger: `.${this.className}__svg`
-        },
-        y: 30,
-        scale: 0.5,
-        delay: 0.5,
-        opacity: 0,
-        rotate: -80,
-        duration: 0.8
-      });
+    gsap.from(`.${this.className}__svg2`, {
+      scrollTrigger: {
+        trigger: `.${this.className}__svg`
+      },
+      y: 30,
+      scale: 0.5,
+      delay: 0.5,
+      opacity: 0,
+      rotate: -80,
+      duration: 0.8
+    });
 
-      const tl = gsap.timeline({
-        repeatDelay: 0.2,
-        scrollTrigger: `.${this.className}__svg`
-      });
+    const tl = gsap.timeline({
+      repeatDelay: 0.2,
+      scrollTrigger: `.${this.className}__svg`
+    });
 
-      tl.from(`.${this.className}__title`, {
-        delay: 0.5,
-        opacity: 0,
-        duration: 0.8
-      });
+    tl.from(`.${this.className}__title`, {
+      delay: 0.5,
+      opacity: 0,
+      duration: 0.8
+    });
 
-      tl.from(`.${this.className}__summary`, {
-        opacity: 0,
-        duration: 0.8
-      });
-    }
+    tl.from(`.${this.className}__summary`, {
+      opacity: 0,
+      duration: 0.8
+    });
   }
 };
 </script>
