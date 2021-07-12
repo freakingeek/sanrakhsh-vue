@@ -1,0 +1,89 @@
+.home-page-first {
+  height: 90vh;
+  position: relative;
+
+  &__title {
+    top: 36%;
+    left: 24%;
+    color: #fefefe;
+    font-size: 1.8rem;
+    position: absolute;
+  }
+
+  &__summary {
+    top: 45%;
+    left: 21%;
+    width: 18rem;
+    color: #fefefe;
+    font-size: 1rem;
+    position: absolute;
+  }
+
+  @media (max-width: 1500px) {
+    &__title {
+      top: 32%;
+      font-size: 1.4rem;
+    }
+
+    &__summary {
+      top: 40%;
+      left: 19%;
+      width: 18rem;
+    }
+  }
+
+  @media (max-width: 1000px) {
+    &__title {
+      top: 26%;
+      left: 26%;
+      font-size: 1.2rem;
+    }
+
+    &__summary {
+      top: 34%;
+      left: 10%;
+      width: 15rem;
+      font-size: 0.8rem;
+    }
+  }
+}
+
+.svg-layer {
+  top: 40%;
+  left: 14%;
+  width: 26%;
+  overflow: visible;
+  position: absolute;
+
+  &__path {
+    opacity: 0.75;
+    transform: rotate(-30deg);
+  }
+
+  @media (max-width: 1500px) {
+    top: 34%;
+  }
+
+  @media (max-width: 1000px) {
+    left: 0;
+    top: 30%;
+    width: 80%;
+  }
+}
+
+.svg-layer2 {
+  top: 20%;
+  left: 19%;
+  width: 27%;
+  position: absolute;
+
+  &__path {
+    opacity: 0.75;
+  }
+
+  @media (max-width: 1000px) {
+    top: 15%;
+    left: 15%;
+    width: 80%;
+  }
+}
