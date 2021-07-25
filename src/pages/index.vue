@@ -137,7 +137,7 @@ export default {
           props: {
             changeOrder: true,
             className: 'second-three',
-            image: require('@/assets/images/r01.png'),
+            image: require('@/assets/images/r03.png'),
             title: this.setTextBaseOnUserLanguage(this.language, [
               'رایحه خوش دلپذیر و ماندگاری بالا',
               'رائحة طيبة ومتانة عالية',
@@ -149,7 +149,7 @@ export default {
           ui: 'HomePageSecond',
           props: {
             className: 'second-reverse-three',
-            // image: require('@/assets/images/r01.png'),
+            // image: require('@/assets/images/03.png'),
             title: this.setTextBaseOnUserLanguage(this.language, [
               'غلظت مناسب جهت نرم کنندگی',
               'تركیز مناسب للتلیین',

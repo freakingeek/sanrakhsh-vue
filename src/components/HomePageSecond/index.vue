@@ -12,10 +12,8 @@
       />
 
       <image
-        id="image1_1"
         width="6000"
         height="4900"
-        class="home-page-second__svg-image"
         :href="image"
         transform="matrix(0.3402 0 0 0.3402 -100 -50)"
       ></image>
@@ -37,21 +35,14 @@
  C70.687,590.458-8.808,1271.023,208.759,1447.666c274.181,222.606,533.382-190.457,794.034-267.309
  C1263.445,1103.504,1619.875,1200.318,1742.332,884.248z"
       />
-      <!-- <g
-        id="content1_image1"
-        style="
-          clip-path: url(/web/20190623051059im_/https://www.softlan.com/#clipping);
-        "
-      >
-        <image
-          id="image1_1"
-          width="5860"
-          height="4740"
-          overflow="visible"
-          xlink:href="https://i.picsum.photos/id/1059/1000/1000.jpg?hmac=Y6tebsLjrIN-ktR68yzetaLaoMZeNS-JnWiFM5C9-gU"
-          transform="matrix(0.3402 0 0 0.3402 -100 50)"
-        ></image>
-      </g> -->
+      
+      <image
+        width="5860"
+        height="4740"
+        :href="image"
+        class="home-page-second-reverse__svg-image"
+        transform="matrix(0.3402 0 0 0.3402 -100 50)"
+      ></image>
     </svg>
 
     <div class="cyrcle-reverse">
