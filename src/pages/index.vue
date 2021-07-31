@@ -50,7 +50,6 @@ export default {
         {
           ui: 'HomePageSecond',
           props: {
-            changeOrder: true,
             className: 'second-one',
             image: require('@/assets/images/r01.png'),
             title: this.setTextBaseOnUserLanguage(this.language, [
@@ -63,6 +62,7 @@ export default {
         {
           ui: 'HomePageSecond',
           props: {
+            reverce: true,
             className: 'second-reverse-one',
             // image: require('@/assets/images/r01.png'),
             title: this.setTextBaseOnUserLanguage(this.language, ['نرم کننده پارچه', 'منعم الأقمشة', 'Fabric softener'])
@@ -91,7 +91,6 @@ export default {
         {
           ui: 'HomePageSecond',
           props: {
-            changeOrder: true,
             className: 'second-two',
             image: require('@/assets/images/r02.png'),
             title: this.setTextBaseOnUserLanguage(this.language, [
@@ -104,6 +103,7 @@ export default {
         {
           ui: 'HomePageSecond',
           props: {
+            reverce: true,
             className: 'second-reverse-two',
             // image: require('@/assets/images/r01.png'),
             title: this.setTextBaseOnUserLanguage(this.language, [
@@ -135,7 +135,6 @@ export default {
         {
           ui: 'HomePageSecond',
           props: {
-            changeOrder: true,
             className: 'second-three',
             image: require('@/assets/images/r03.png'),
             title: this.setTextBaseOnUserLanguage(this.language, [
@@ -148,6 +147,7 @@ export default {
         {
           ui: 'HomePageSecond',
           props: {
+            reverce: true,
             className: 'second-reverse-three',
             // image: require('@/assets/images/03.png'),
             title: this.setTextBaseOnUserLanguage(this.language, [
