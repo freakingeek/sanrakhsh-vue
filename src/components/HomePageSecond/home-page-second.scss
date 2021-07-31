@@ -21,8 +21,7 @@
       }
 
       &-image {
-        width: 324%;
-        height: 308%;
+        transform: scale(0.33) translateX(-10rem);
       }
     }
   }
@@ -186,7 +185,7 @@
     }
   }
 
-  @media screen and (max-width: 1440px) {
+  @media screen and (max-width: 1000px) {
     height: 55vh;
 
     .svg-box {
