@@ -2,48 +2,32 @@
   height: 90vh;
   position: relative;
 
-  &__title {
-    top: 36%;
-    left: 24%;
-    color: #fefefe;
-    font-size: 1.8rem;
-    position: absolute;
-  }
-
-  &__summary {
-    top: 45%;
+  .contents {
+    top: 34%;
     left: 21%;
-    width: 18rem;
+    width: 20vw;
     color: #fefefe;
-    font-size: 1rem;
     position: absolute;
-  }
 
-  @media (max-width: 1500px) {
+    &_ltr {
+      width: 23vw;
+      text-align: left;
+    }
+
     &__title {
-      top: 32%;
+      font-weight: 700;
       font-size: 1.4rem;
     }
 
     &__summary {
-      top: 40%;
-      left: 19%;
-      width: 18rem;
-    }
-  }
-
-  @media (max-width: 1000px) {
-    &__title {
-      top: 26%;
-      left: 26%;
-      font-size: 1.2rem;
+      font-size: 1rem;
     }
 
-    &__summary {
-      top: 34%;
-      left: 10%;
-      width: 15rem;
-      font-size: 0.8rem;
+    @media (max-width: 1000px) {
+      top: 22%;
+      left: 21%;
+      width: 60vw;
+      text-align: center !important;  
     }
   }
 }

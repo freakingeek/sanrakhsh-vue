@@ -23,12 +23,15 @@
       </svg>
 
       <!-- Contents -->
-      <h2 :class="['home-page-first__title', `${className}__title`]">
-        {{ title }}
-      </h2>
-      <span :class="['home-page-first__summary', `${className}__summary`]">
-        {{ subTitle }}
-      </span>
+      <div :class="['contents', {'contents_ltr' : $store.state.language === 'en'}]">
+        <h2 :class="['contents__title', `${className}__title`]">
+          {{ title }}
+        </h2>
+        
+        <span :class="['contents__summary', `${className}__summary`]">
+          {{ subTitle }}
+        </span>
+      </div>
     </div>
   </div>
 </template>
