@@ -41,9 +41,9 @@ export default {
 
             background: require('@/assets/images/1.jpg'),
             subTitle: this.setTextBaseOnUserLanguage(this.language, [
-              'تمیزی و درخشندگی لباس',
-              'نظافة وإشراق الملابس',
-              'Cleanliness and radiance of clothes'
+              'بهترین رایحه‌ها با سان‌رخش در انتظار شماست',
+              'أفضل الروائح في انتظارك',
+              'The best scents with Sanrakhsh'
             ])
           }
         },
@@ -82,9 +82,9 @@ export default {
             ]),
 
             subTitle: this.setTextBaseOnUserLanguage(this.language, [
-              'بهترین رایحه با سان رخش',
-              'أفضل رائحة مع سان رخش',
-              'The best scent with Sanrakhsh'
+              'زیبایی، ظرافت و نرمی لباس‌های شما با محصولات سان‌رخش',
+              'جمال وأناقة الملابس مع سان‌رخش',
+              'The beauty and elegance of clothes with Sanrakhsh'
             ])
           }
         },
@@ -96,7 +96,7 @@ export default {
             title: this.setTextBaseOnUserLanguage(this.language, [
               'غلظت مناسب و حاللیت عالی',
               'تركيز مناسب وقابلية ذوبان ممتازة',
-              'Suitable‬‬ concentration‬‬ and excellent solubility'
+              'Suitable‬‬ concentration‬‬'
             ])
           }
         },
@@ -109,7 +109,7 @@ export default {
             title: this.setTextBaseOnUserLanguage(this.language, [
               'ثبات رنگ و جلوگیری از تداخل رنگ در لباس',
               'ثبات اللون لمنع تداخل الالوان في الملابس',
-              'Color fastness and prevent color interference in clothing'
+              'Prevent color interference in clothing'
             ])
           }
         },
@@ -119,14 +119,14 @@ export default {
             color: '#00b1a8',
             className: 'first-three',
             title: this.setTextBaseOnUserLanguage(this.language, [
-              'ایجاد لطافت و نرمی در الیاف پارچه',
-              'یخلق نعومة ونعومة في ألیاف النسیج',
-              'Creates softness and softness in fabric fibers'
+              'نرمی و لطافت لباس‌های شما',
+              'نعومة الملابس',
+              'The softness of the clothes'
             ]),
 
             background: require('@/assets/images/3.jpg'),
             subTitle: this.setTextBaseOnUserLanguage(this.language, [
-              'ایجاد لطافت و نرمی در الیاف پارچه',
+              'ایجاد لطافت و نرمی در الیاف پارچه با مایع لباسشویی سان‌رخش',
               'یخلق نعومة ونعومة في ألیاف النسیج',
               'Creates softness and softness in fabric fibers'
             ])
