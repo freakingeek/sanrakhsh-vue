@@ -21,7 +21,7 @@
       }
 
       &-image {
-        transform: scale(0.33) translateX(-10rem);
+        transform: scale(2) translate(-2rem, 6rem);
       }
     }
   }
@@ -74,8 +74,7 @@
         }
 
         &-image {
-          width: 332%;
-          height: 308%;
+          transform: scale(1.65) translate(-6rem, 3rem);
         }
       }
     }
@@ -93,7 +92,7 @@
         }
 
         &-image {
-          transform: scale(0.33) translateY(-10rem) translateX(-3rem);
+          transform: scale(0.44) translate(-6rem, 2.4rem);
         }
       }
     }
