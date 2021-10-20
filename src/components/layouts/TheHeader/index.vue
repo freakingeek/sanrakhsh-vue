@@ -167,10 +167,10 @@ export default {
             name: 'ارتباط با ما',
             to: '/contact-us',
           },
-          {
-            name: 'نمایندگی‌های فروش',
-            to: '/branches',
-          },
+          // {
+          //   name: 'نمایندگی‌های فروش',
+          //   to: '/branches',
+          // },
         ]
       } else if (this.language === 'en') {
         return [
