@@ -35,8 +35,7 @@
         <div class="icon">
           <PhoneIcon size="2x" class="icon__image" />
           <h4 class="icon__title">تلفن‌ها</h4>
-          <span class="icon__summary">025 36207756</span>
-          <span class="icon__summary">025 36638859</span>
+          <span class="icon__summary">-</span>
         </div>
 
         <div class="icon">
