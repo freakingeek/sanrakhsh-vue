@@ -207,10 +207,10 @@ export default {
             name: 'Contact us',
             to: '/contact-us',
           },
-          {
-            name: 'Branches',
-            to: '/branches',
-          },
+          // {
+          //   name: 'Branches',
+          //   to: '/branches',
+          // },
         ]
       } else {
         return [
