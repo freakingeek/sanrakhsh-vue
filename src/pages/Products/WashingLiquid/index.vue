@@ -50,10 +50,10 @@ export default {
           {
             name: 'مایع لباس‌شویی',
             // description: 'بهترین نرم کننده جهان',
-            image: require('@/assets/images/products/p05.jpg')
+            image: require('@/assets/images/products/p06.jpg')
           },
           {
-            name: 'مایع لباس‌شویی',
+            name: 'مایع لباس‌شویی بزرگ',
             // description: 'بهترین نرم کننده جهان',
             image: require('@/assets/images/products/p05.jpg')
           }

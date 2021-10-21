@@ -48,16 +48,16 @@ export default {
         description: this.text,
         products: [
           {
-            name: 'نرم کننده اول',
-            description: 'بهترین نرم کننده جهان',
-            image: require('@/assets/images/products/01.jpeg')
+            name: 'نرم کننده لباس',
+            // description: '',
+            image: require('@/assets/images/products/p07.jpg'),
           },
           {
-            name: 'نرم کننده بزرگ',
-            description: 'بهترین نرم کننده جهان',
-            image: require('@/assets/images/products/02.jpeg')
-          }
-        ]
+            name: 'نرم کننده لباس بزرگ',
+            // description: '',
+            image: require('@/assets/images/products/p08.jpg'),
+          },
+        ],
       };
     }
   },

@@ -41,12 +41,12 @@ export default {
           {
             name: 'نرم کننده لباس',
             // description: '',
-            image: require('@/assets/images/products/p05.jpg'),
+            image: require('@/assets/images/products/p07.jpg'),
           },
           {
-            name: 'نرم کننده لباس',
+            name: 'نرم کننده لباس بزرگ',
             // description: '',
-            image: require('@/assets/images/products/p05.jpg'),
+            image: require('@/assets/images/products/p08.jpg'),
           },
         ],
       }
@@ -79,10 +79,10 @@ export default {
           {
             name: 'مایع لباس‌شویی',
             // description: 'بهترین نرم کننده جهان',
-            image: require('@/assets/images/products/p05.jpg'),
+            image: require('@/assets/images/products/p06.jpg'),
           },
           {
-            name: 'مایع لباس‌شویی',
+            name: 'مایع لباس‌شویی بزرگ',
             // description: 'بهترین نرم کننده جهان',
             image: require('@/assets/images/products/p05.jpg'),
           },
