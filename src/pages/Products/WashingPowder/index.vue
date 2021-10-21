@@ -50,14 +50,14 @@ export default {
         description: this.firstSectionText,
         products: [
           {
-            name: 'نرم کننده اول',
-            description: 'بهترین نرم کننده جهان',
-            image: require('@/assets/images/products/01.jpeg'),
+            name: 'پودر لباس‌شویی ماشینی',
+            // description: 'بهترین نرم کننده جهان',
+            image: require('@/assets/images/products/p02.jpg'),
           },
           {
-            name: 'نرم کننده بزرگ',
-            description: 'بهترین نرم کننده جهان',
-            image: require('@/assets/images/products/02.jpeg'),
+            name: 'پودر لباس‌شویی ماشینی بزرگ',
+            // description: 'بهترین نرم کننده جهان',
+            image: require('@/assets/images/products/p01.jpg'),
           },
         ],
       }
@@ -91,14 +91,14 @@ export default {
         description: this.secondSectionText,
         products: [
           {
-            name: 'نرم کننده اول',
-            description: 'بهترین نرم کننده جهان',
-            image: require('@/assets/images/products/01.jpeg'),
+            name: 'پودر شستشو دستی',
+            // description: 'بهترین نرم کننده جهان',
+            image: require('@/assets/images/products/p03.jpg'),
           },
           {
-            name: 'نرم کننده بزرگ',
-            description: 'بهترین نرم کننده جهان',
-            image: require('@/assets/images/products/02.jpeg'),
+            name: 'پودر شستشو دستی بزرگ',
+            // description: 'بهترین نرم کننده جهان',
+            image: require('@/assets/images/products/p04.jpg'),
           },
         ],
       }

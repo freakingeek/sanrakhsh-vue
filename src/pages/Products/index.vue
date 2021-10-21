@@ -26,7 +26,7 @@ export default {
 
   components: {
     ProductsRow,
-    
+
     DefaultLayout,
   },
 
@@ -39,14 +39,14 @@ export default {
         description: `لباس ها باشستشو و تماس با آب و مواد شوینده به مرور نرمی و لطافت اولیه خودشان را از دست میدهند. در ترکیبات این مایع،از موادی استفاده شده که از خشکی و آسیب پذیری که مواد شوینده بر روی پارچه می گذارند جلوگیری می‌کند.`,
         products: [
           {
-            name: 'نرم کننده اول',
-            description: 'بهترین نرم کننده جهان',
-            image: require('@/assets/images/products/01.jpeg'),
+            name: 'نرم کننده لباس',
+            // description: '',
+            image: require('@/assets/images/products/p05.jpg'),
           },
           {
-            name: 'نرم کننده بزرگ',
-            description: 'بهترین نرم کننده جهان',
-            image: require('@/assets/images/products/02.jpeg'),
+            name: 'نرم کننده لباس',
+            // description: '',
+            image: require('@/assets/images/products/p05.jpg'),
           },
         ],
       }
@@ -58,14 +58,14 @@ export default {
         description: `این پودر لباسشویی سان رخش مخصوص ماشین لباسشویی است. این پودر حاوی ترکیباتی است که لباس ها را کاملا پاک و تمیز میکند برای لکه زدایی لباس ها پودر سان رخش انتخابی ایده آل است. پودر سان رخش مخصوص شستشوی با دست گزینه ای بسیار عالی برای شستشوی دست و همچنین استفاده در ماشین لباسشویی نیمه اتوماتیک است`,
         products: [
           {
-            name: 'نرم کننده اول',
-            description: 'بهترین نرم کننده جهان',
-            image: require('@/assets/images/products/01.jpeg'),
+            name: 'پودر لباس‌شویی',
+            // description: 'بهترین نرم کننده جهان',
+            image: require('@/assets/images/products/p02.jpg'),
           },
           {
-            name: 'نرم کننده بزرگ',
-            description: 'بهترین نرم کننده جهان',
-            image: require('@/assets/images/products/02.jpeg'),
+            name: 'پودر لباس‌شویی بزرگ',
+            // description: 'بهترین نرم کننده جهان',
+            image: require('@/assets/images/products/p01.jpg'),
           },
         ],
       }
@@ -77,14 +77,14 @@ export default {
         description: `استفاده از مایع لباسشویی سان رخش برای شستن انواع لباس ها،مخصوصا لباس های رنگی با پارچه ای ظریف بسیار مناسب است استفاده از شوینده مایع کمک میکند تا از ماشین لباس شویی خود نیز حفاظت کرده و عمر آن را طولانی تر کنید`,
         products: [
           {
-            name: 'نرم کننده اول',
-            description: 'بهترین نرم کننده جهان',
-            image: require('@/assets/images/products/01.jpeg'),
+            name: 'مایع لباس‌شویی',
+            // description: 'بهترین نرم کننده جهان',
+            image: require('@/assets/images/products/p05.jpg'),
           },
           {
-            name: 'نرم کننده بزرگ',
-            description: 'بهترین نرم کننده جهان',
-            image: require('@/assets/images/products/02.jpeg'),
+            name: 'مایع لباس‌شویی',
+            // description: 'بهترین نرم کننده جهان',
+            image: require('@/assets/images/products/p05.jpg'),
           },
         ],
       }
